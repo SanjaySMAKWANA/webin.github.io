@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#bg{
+    height:100vh;
+    background-image:linear-gradient(rgba(41, 121, 161, 0.3),rgba(39, 137, 185, 0.945)),url('../bg1.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;}
+
+
+hr{
+    height:2px;
+    border-width:0;color:cornflowerblue;background-color:cornflowerblue;
+
+}
+
+
+.head{
+    display: flex;
+}
+
+.cont{
+
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 5px;
+}
+.head img{
+    width: 50px;
+    margin-left: 100px;
+    border-radius: 40%;
+   
+}
+
+
+
+
+    .footer{
+        /* background-color: rgb(179, 178, 178);*/
+        margin-top: 200px;
+        
+         
+     }
+     
+     .contactus img{
+         width: 26px;
+     
+         border-radius: 40%;
+     }
+     .contactus img :hover{
+         color: blue;
+     }
+     .fa-map-marker-alt:hover{
+         color: green;
+     }
+     #loc:hover{
+         color: green;
+     }
+     .contactus{
+         text-decoration: none;
+         align-items: center;
+         justify-content: center;
+         display: flex;
+         padding: 5px;
+     }
+     .contactus a {
+         text-decoration: none!important;
+         color: black;
+         font-family: sans-serif;
+     
+     }
+     .contactus ul li{
+         display: inline;
+         list-style: none;
+         text-decoration: none;
+     }
+     .contactus ul li i{
+         font-size: 26px;
+         color: black;
+     }
+     .fa-envelope:hover{
+        color: whitesmoke!important;
+    }
+     .fa-facebook:hover{
+          color: mediumblue;
+     }
+     .fa-instagram:hover{
+          color: rgb(240, 23, 95);
+     }
+     .fa-linkedin:hover{
+          color: rgb(7, 7, 126);
+     }
+     .fa-youtube:hover{
+          color: darkred;
+     }
+     .fa-twitter:hover{
+         color: rgb(61, 130, 500); 
+     
+     }
+     footer p{
+         text-align: center;
+         justify-content: center;
+     }
+    

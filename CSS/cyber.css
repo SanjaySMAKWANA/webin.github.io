@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+/*-- =========================== Navbar  =========================*/
+
+.navbar{
+    margin-top: 15px;
+    background-color: rgb(179, 178, 178);
+    
+}
+.navbar-brand img{
+    width: 26px;
+
+    border-radius: 40%;
+    margin-left:100px;
+    margin-right: 50px;
+}
+.navbar img:hover {
+    color: rgb(7, 7, 126);
+}
+
+
+#ul-item{
+    color: white;
+}
+.dropdown-menu{
+      margin-top: 5px!important;
+      background-color: rgba(179, 178, 178, 0.562)!important;
+      
+      
+}
+.dropdown-item{
+    color: white!important;
+    
+}
+.dropdown-item:hover{
+    background-color: black!important;
+}
+
+/*-- =========================== Div  1st content =========================*/
+.first{
+     background-color: whitesmoke;
+}
+
+.header-extradiv{
+    width: 100%; 
+    height: auto;
+    margin: 5px ;
+    padding: 20px;
+    text-align: center;
+    
+
+
+}
+.extra-div{
+    background: white;
+    border: medium none;
+    padding: 40px!important;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+.extra-div:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    transform: translateY(-15px) ;
+
+}
+
+.comment{
+  background-color: black;
+  
+}
+.form-control{
+   display: none;
+   border: solid black;
+}
+
+
+
+/*-- ===========================   =========================*/
+/*-- ===========================   =========================*/
+/*-- ===========================   =========================*/
+/*-- ===========================   =========================*/
+/*-- ===========================   =========================*/
+/*-- ===========================   =========================*/
+/*-- ===========================   =========================*/
+/*-- ===========================   =========================*/
+
+/*-- ===========================   =========================*/
+
+
+/*-- =========================== Footer  =========================*/
+.footer{
+    background-color: rgb(179, 178, 178);
+    margin-top: 40px;
+    
+}
+
+.contactus img{
+    width: 26px;
+
+    border-radius: 40%;
+}
+.contactus img :hover{
+    color: blue;
+}
+.fa-map-marker-alt:hover{
+    color: green;
+}
+#loc:hover{
+    color: green;
+}
+.contactus{
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 5px;
+}
+.contactus a {
+    text-decoration: none!important;
+    color: black;
+    font-family: sans-serif;
+
+}
+.contactus ul li{
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+}
+.contactus ul li i{
+    font-size: 26px;
+    color: black;
+}
+
+.fa-facebook:hover{
+     color: mediumblue;
+}
+.fa-instagram:hover{
+     color: rgb(240, 23, 95);
+}
+.fa-linkedin:hover{
+     color: rgb(7, 7, 126);
+}
+.fa-youtube:hover{
+     color: darkred;
+}
+.fa-twitter:hover{
+    color: rgb(61, 130, 500); 
+
+}
+footer p{
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+

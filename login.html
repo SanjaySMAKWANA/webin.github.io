@@ -1,0 +1,117 @@
+<html>
+<body>
+  <head>
+    <title>Login - Info</title>
+    <style type="text/css">
+      body{
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        
+        background: linear-gradient(to right,#1e5799 0%,#69ebd9 0%,#507cf7 100%);
+      }
+      form{
+         color: white;
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         width: 500px;
+         transform: translate(-50%,-50%);
+         background-color: #b3d5e9;
+         
+   
+
+         justify-content: center;
+         text-align: center;
+      }
+      h1{
+          color: white;
+          text-transform: uppercase;
+          font-weight: 500;
+     }
+     input[type = "text"], input[type = "password"]{
+          border:0;
+          background: none;
+          display: block;
+          margin: 20px auto;
+          text-align: center;
+          border: 2px solid rgb(43, 142, 199);
+          padding: 14px 10px;
+          width: 200px;
+          outline: none;
+          color: white;
+          border-radius: 24px;
+          transition: 0.25s;
+        }
+     input[type = "text"]:focus, input[type = "password"]:focus{
+          width: 280px;
+          border-color: #2ecc71;
+      }
+     input[type = "submit"]{
+          border:0;
+          background: none;
+          display: block;
+          margin: 20px auto;
+          text-align: center;
+          border: 2px solid #2ecc71;
+          padding: 14px 40px;
+          outline: none;
+          color: white;
+          border-radius: 24px;
+          transition: 0.25s;
+          cursor: pointer;
+        }
+     input[type = "submit"]:hover{
+           background: #2ecc71;
+        }
+    </style>
+  </head>
+
+<body>  
+
+<form name="myform"  method="post" action="/" onsubmit="return validateemail();">  
+  <h1>Login</h1>
+ <input type="text" name="email" placeholder="Username"><br/>  
+ <input type="password" name="password" placeholder="password"><br/>  
+  
+<input type="submit" value="Login">  
+</form>
+<script>  
+  function validateemail()  
+  {  
+  var x=document.myform.email.value;  
+  var a=x.indexOf("@");  
+  var d=x.indexOf("_"); 
+  var b=x.lastIndexOf(".");  
+  var e=x.substr(0,1);
+  
+  var c=document.myform.password.value;
+  
+  if (x.length==0 || c.length==0) {
+    alert("feild should not be empty");
+    return false;
+  }
+  else if(c.length<6 || c.length>12){
+    alert("password length isn't correct ");
+    return false;
+  
+  }
+  
+  else if (a<1 || b<a+2 || b+2>=x.length){  
+    alert("@ at wrong position");   
+    return false;  
+    }  
+  else if (d=0) {
+    alert("_ at wrong position");  
+    return false;  
+  }
+  else if (e>=1 && e<=9) {
+     alert("email shouldnot start with no.");  
+     return false;
+  }
+  
+  
+  }  
+  </script>    
+</body>
+</html>
